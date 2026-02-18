@@ -5,5 +5,4 @@ Tema Pterodactyl kustom ala Reviactyl dengan nama **Kenzi** – desain modern, c
 ## 🚀 Cara Instalasi
 1. Clone repositori ini ke server:
    ```bash
-   git clone https://github.com/[USERNAME-KAMU]/tema-kenzi-pterodactyl.git
-   cd tema-kenzi-pterodactyl
+   git clone https://github.com/z2yyt9-spec/kenzi-teme-pterodactyl/tree/master
