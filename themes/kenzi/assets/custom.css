@@ -1,0 +1,134 @@
+/* TEMA KENZI - GAYA SEPERTI REVIACTYL */
+
+/* === SETELAN DASAR === */
+:root {
+    --rv-primary: #165DFF;       /* Warna primer Reviactyl */
+    --rv-secondary: #FF7D00;     /* Warna sekunder Reviactyl */
+    --rv-bg: #F8F9FA;            /* Latar mode terang */
+    --rv-text: #333333;          /* Teks mode terang */
+    --rv-dark-bg: #121212;       /* Latar mode gelap */
+    --rv-dark-text: #FFFFFF;     /* Teks mode gelap */
+    --rv-border-radius: 8px;     /* Sudut melengkung seperti Reviactyl */
+    --rv-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+body {
+    background-color: var(--rv-bg);
+    color: var(--rv-text);
+    font-family: 'Inter', sans-serif; /* Font sama seperti Reviactyl */
+}
+
+/* === HEADER & NAVIGASI === */
+.navbar {
+    background-color: var(--rv-primary);
+    padding: 10px 24px;
+    box-shadow: var(--rv-shadow);
+}
+
+.navbar-brand img {
+    height: 32px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 16px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--rv-secondary) !important;
+}
+
+/* === KARTU SERVER === */
+.card {
+    border: none;
+    border-radius: var(--rv-border-radius);
+    box-shadow: var(--rv-shadow);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: var(--rv-primary);
+    color: white;
+    padding: 12px 16px;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* === TOMBOL INTERAKSI === */
+.btn {
+    border-radius: var(--rv-border-radius);
+    padding: 8px 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--rv-primary);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0D47A1;
+    box-shadow: 0 0 10px rgba(22, 93, 255, 0.5);
+}
+
+.btn-secondary {
+    background-color: var(--rv-secondary);
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #E67100;
+    box-shadow: 0 0 10px rgba(255, 125, 0, 0.5);
+}
+
+/* === QUICK ACTIONS (SEPERTI REVIACTYL) === */
+.quick-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.quick-action-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+/* === MODE GELAP === */
+body.dark-mode {
+    background-color: var(--rv-dark-bg);
+    color: var(--rv-dark-text);
+}
+
+body.dark-mode .card {
+    background-color: #1E1E1E;
+}
+
+body.dark-mode .card-header {
+    background-color: #0D47A1;
+}
+
+/* === RESPONSIF UNTUK MOBILE === */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 16px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .quick-actions {
+        justify-content: center;
+    }
+}

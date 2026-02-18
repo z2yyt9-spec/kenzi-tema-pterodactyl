@@ -1,0 +1,23 @@
+{
+  "name": "kenzi-pterodactyl-theme",
+  "version": "1.0.0",
+  "description": "Sistem inti tema Kenzi untuk panel Pterodactyl",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Tes tema berhasil!\" && exit 0",
+    "build": "echo \"Build tema selesai\"",
+    "dev": "echo \"Mode pengembangan aktif\""
+  },
+  "keywords": [
+    "pterodactyl",
+    "theme",
+    "kenzi",
+    "panel"
+  ],
+  "author": "Kenzi Dev",
+  "license": "MIT",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {}
+}

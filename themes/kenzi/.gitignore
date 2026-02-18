@@ -1,0 +1,45 @@
+# ==============================
+# FILE & FOLDER YANG DIKECUALIKAN
+# ==============================
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# File cache & log
+*.log
+*.tmp
+*.temp
+cache/
+logs/
+tmp/
+temp/
+
+# File node/npm/yarn
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# File konfigurasi lokal
+.env
+.env.local
+.env.*.local
+
+# File backup & arsip
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.backup
+
+# File OS spesifik
+.Spotlight-V100
+.Trashes
